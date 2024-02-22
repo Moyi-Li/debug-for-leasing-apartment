@@ -1,0 +1,419 @@
+/* shared part */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color:antiquewhite;
+  margin: 0;
+}
+  
+/* header and footer */
+.project-name {
+  background-color: #4B2E83;
+  color: white;
+  float: left;
+  width: 3.6rem;
+}
+
+.topnav {
+  background-color: #4B2E83;
+  overflow: hidden;
+}
+
+.topnav h2 {
+  font-size: x-large;
+  color: white;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.topnav img {
+  width: 3rem;
+  float: left;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4B2E83;
+  color: white;
+}  
+
+footer p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer p:last-child {
+  padding-top: 8px;
+}
+
+footer {
+  display: block;
+  left: 0; right: 0; bottom: 0;
+  color: white;
+  background-color: #4B2E83;
+}
+
+/* index page */
+.container {
+  margin: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.home {
+  background-image: url('../public/img/spaceneedle.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-text {
+  padding-left: 35px;
+}
+
+.home-text h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: white
+}
+
+.search button {
+  background-color: #4B2E83;
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.card img {
+  display: block;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card {
+  box-shadow: 5px 5px 5px 5px rgba(0.1,0.1,0.1,0.1)
+}
+
+.explore-rentals h1 {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+
+/* map page */
+.top-heading {
+  text-align: center;
+  font-family: "Asap", 'Kaushan Script', fantasy, 'sans-serif';
+  font-size: 3.5rem;
+  margin-top: 3vh;
+  margin-bottom: 1vh;
+  color: rgb(31, 27, 27); 
+  text-shadow: 1px 1px #153c43;
+}
+
+.result-texts {
+  text-align: center;
+  font-family: fantasy, 'sans-serif';
+  font-size: 1.3rem;
+  color: rgb(16, 11, 0); 
+  padding-top: 1.5rem;
+  line-height: 0.8;
+}
+
+.flex-container-overall {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  overflow: auto;
+}
+
+.flex-container-leftbar {
+  flex: 1;
+  width: 100%;
+  margin: 0;
+}
+
+.overall-google-map {
+  order: 2;
+  justify-content: center;
+  width: 100%;
+  overflow: auto;
+  padding: 1.5rem;
+}
+
+iframe{
+  width:100%;
+}
+
+.flex-title {
+  flex: 0 0 250px;
+  margin: 2rem;
+  background-color:rgba(255, 221, 28, 0.907);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px rgba(0.1,0.1,0.1,0.1);
+}
+
+.flex-cards {
+  flex: 0 0 250px;
+  margin: 2rem;
+  padding: 0.1rem 1rem 0.5rem 1rem;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px rgba(0.1,0.1,0.1,0.1);
+}
+
+/* Questions cards in map page */
+.flex-cards:first-child {
+  background-color: rgb(255,163,191);
+}
+
+.flex-cards:nth-child(2) {
+  background-color: rgb(255,220,167);
+}
+
+.flex-cards:nth-child(3) {
+  background-color: rgb(247,255,178);
+}
+
+.flex-cards:nth-child(4) {
+  background-color: rgb(228,235,207);
+}
+
+.flex-cards:nth-child(5) {
+  background-color:rgb(180,223,255);
+}
+
+/* Post a question */
+.flex-cards:nth-child(6) {
+  background-color: rgb(134,161,219);
+  line-height: 2rem;
+}
+
+/* submit button */
+.flex-cards:nth-child(7) {
+  background-color: rgb(247, 191, 49);
+  width: 6rem;
+}
+
+.flex-cards p,label{
+  font-size: 1rem;
+  font-family: Roboto, 'sans-serif';
+}
+
+/* profile page */
+.saved_card textarea {
+  height: 50px;
+  width: 200px;
+  justify-content: center;
+}
+
+.saved_card button, .saved_card label {
+  display: block;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.saved_profile_image {
+  width: 100px; 
+  height: auto; 
+}
+
+.saved_overall_flex_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../public/img/flower.jpg);
+  background-size:cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+.saved_housing{
+  width: 300px;
+  height: 200px;
+}
+
+.saved_card h2 .saved_contact {
+  width: 35px;
+  height: 35px;
+}
+
+.saved_card-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.saved_card {
+  margin: 30px;
+  box-sizing: border-box;
+  padding: 20px;
+  
+}
+
+.saved_container:nth-child(1) a {
+  text-decoration: none;
+  color:black;
+}
+
+.saved_container:nth-child(1) h2 {
+  font-size: 24px;
+}
+
+.saved_container:nth-child(2) {
+  margin-top:20px;
+}
+
+.saved_container .saved_row .saved_favorite {
+  font-size: 30px;
+}
+
+.saved_row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+}
+
+.saved_container .saved_row p {
+  font-size: 18px;
+}
+
+/* Filter container */
+.saved_sort {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.saved_sort label,
+.saved_sort select {
+  margin: 0.5rem;
+}
+  
+/* responsive media */
+@media (min-width: 598px) {
+  .home {
+      height: 500px; 
+  }
+
+  /* map page start */
+  h1, h3{
+    font-size: 1.5rem;
+    margin-top: 5vh;
+  }
+
+  .overall-google-map{
+    margin-bottom: 3rem;
+  }
+
+  .flex-container-overall {
+    flex-direction: column;
+  }
+
+  /* map page end */
+  .saved_container .saved_row{
+    font-size:23px;
+    }
+  
+  .saved_card-container {
+    flex-direction: row;
+  }
+
+  .saved_card h1 {
+    font-size: 2rem;
+  }
+
+  .saved_card textarea{
+    height: 70px;
+    width: 200px;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .home {
+    height: 600px;
+  }
+  
+  .home-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .topnav a {
+    padding: 14px 20px;
+  }
+
+  .footer p {
+    line-height: 2;
+  }
+
+  /* map page start */
+  .flex-container-overall {
+    display: flex;
+    height: 100%;
+    margin: 1rem;
+    flex-direction: row;
+  }
+
+  .flex-container-leftbar, .flex-container-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .overall-google-map {
+    margin-top: 2rem;
+    justify-content: center;
+    flex: 1;
+  }
+
+  .saved_card label, .saved_card button {
+    display: block;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+
+  .saved_card textarea{
+    height: 100px;
+    width: 300px;
+  }
+
+}

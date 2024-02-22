@@ -1,0 +1,211 @@
+[
+    {
+        "name": "Elm Hall",
+        "location": "on-campus",
+        "lease": "short",
+        "safety": 3,
+        "grocery": 4,
+        "outdatedness": 2
+    },
+    {
+        "name": "Lander Hall",
+        "location": "on-campus",
+        "lease": "short",
+        "safety": 5,
+        "grocery": 2,
+        "outdatedness": 4
+    },
+    {
+        "name": "Maple Hall",
+        "location": "on-campus",
+        "lease": "short",
+        "safety": 1,
+        "grocery": 5,
+        "outdatedness": 3
+    },
+    {
+        "name": "Alder Hall",
+        "location": "on-campus",
+        "lease": "short",
+        "safety": 4,
+        "grocery": 3,
+        "outdatedness": 1
+    },
+    {
+        "name": "Hansee Hall (HNS)",
+        "location": "on-campus",
+        "lease": "short",
+        "safety": 2,
+        "grocery": 4,
+        "outdatedness": 5
+    },
+    {
+        "name": "Madrona Hall",
+        "location": "on-campus",
+        "lease": "short",
+        "safety": 3,
+        "grocery": 5,
+        "outdatedness": 2
+    },
+    {
+        "name": "McCarty Hall (MCC)",
+        "location": "on-campus",
+        "lease": "short",
+        "safety": 5,
+        "grocery": 2,
+        "outdatedness": 4
+    },
+    {
+        "name": "McMahon Hall (MCM)",
+        "location": "on-campus",
+        "lease": "short",
+        "safety": 4,
+        "grocery": 3,
+        "outdatedness": 1
+    },
+    {
+        "name": "Oak Hall (OAK)",
+        "location": "on-campus",
+        "lease": "short",
+        "safety": 2,
+        "grocery": 4,
+        "outdatedness": 5
+    },
+    {
+        "name": "Poplar Hall",
+        "location": "on-campus",
+        "lease": "short",
+        "safety": 3,
+        "grocery": 5,
+        "outdatedness": 1
+    },
+    {
+        "name": "Terry Hall",
+        "location": "on-campus",
+        "lease": "short",
+        "safety": 4,
+        "grocery": 2,
+        "outdatedness": 3
+    },
+    {
+        "name": "Willow Hall",
+        "location": "on-campus",
+        "lease": "short",
+        "safety": 1,
+        "grocery": 3,
+        "outdatedness": 5
+    },
+    {
+        "name": "Mercer Court",
+        "location": "on-campus",
+        "lease": "short",
+        "safety": 5,
+        "grocery": 4,
+        "outdatedness": 2
+    },
+    {
+        "name": "Stevens Court",
+        "location": "on-campus",
+        "lease": "short",
+        "safety": 3,
+        "grocery": 2,
+        "outdatedness": 4
+    },
+    {
+        "name": "Cedar Apartments",
+        "location": "on-campus",
+        "lease": "short",
+        "safety": 2,
+        "grocery": 5,
+        "outdatedness": 1
+    },
+    {
+        "name": "Hub U District Seattle",
+        "location": "off-campus",
+        "term": "long",
+        "safety": 3,
+        "grocery": 4,
+        "outed": 2
+    },
+    {
+        "name": "NORA Apartments",
+        "location": "off-campus",
+        "term": "long",
+        "safety": 5,
+        "grocery": 2,
+        "outed": 4
+    },
+    {
+        "name": "TWELVE at U District",
+        "location": "off-campus",
+        "term": "long",
+        "safety": 1,
+        "grocery": 5,
+        "outed": 3
+    },
+    {
+        "name": "HERE Seattle",
+        "location": "off-campus",
+        "term": "long",
+        "safety": 4,
+        "grocery": 3,
+        "outed": 1
+    },
+    {
+        "name": "ōLiv Seattle",
+        "location": "off-campus",
+        "term": "long",
+        "safety": 2,
+        "grocery": 4,
+        "outed": 5
+    },
+    {
+        "name": "NOLAN Apartments",
+        "location": "off-campus",
+        "term": "long",
+        "safety": 3,
+        "grocery": 5,
+        "outed": 2
+    },
+    {
+        "name": "Theory U District",
+        "location": "off-campus",
+        "term": "long",
+        "safety": 5,
+        "grocery": 2,
+        "outed": 4
+    },
+    {
+        "name": "The Accolade",
+        "location": "off-campus",
+        "term": "long",
+        "safety": 4,
+        "grocery": 3,
+        "outed": 1
+    },
+    {
+        "name": "Wilsonian Apartments",
+        "location": "off-campus",
+        "term": "long",
+        "safety": 2,
+        "grocery": 4,
+        "outed": 5
+    },
+    {
+        "name": "The M Seattle",
+        "location": "off-campus",
+        "term": "long",
+        "safety": 3,
+        "grocery": 5,
+        "outed": 1
+    },
+    {
+        "name": "Barclay Apartments",
+        "location": "off-campus",
+        "term": "long",
+        "safety": 4,
+        "grocery": 2,
+        "outed": 3
+    }
+]
+

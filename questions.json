@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Do you prefer on-campus or off-campus apartments?",
+        "id": "map_1",
+        "answers": [
+            {
+                "id": "q1_on_campus",
+                "value": "I prefer on-campus!"
+            },
+            {
+                "id": "q1_off_campus",
+                "value": "I prefer off-campus!"
+            }
+        ]
+    },
+    {
+        "question": "Do you prefer a long-term lease or a short-term lease?",
+        "id": "map_2",
+        "answers": [
+            {
+                "id": "q2_long",
+                "value": "I prefer long-term (over a year)"
+            },
+            {
+                "id": "q2_short",
+                "value": "I prefer short-term (less than a year)"
+            }
+        ]
+    },
+    {
+        "question": "How important is safety to you?",
+        "id": "map_3",
+        "answers": [
+            {
+                "id": "q3_1",
+                "value": "Not at all!"
+            },
+            {
+                "id": "q3_2",
+                "value": "Slightly"
+            },
+            {
+                "id": "q3_3",
+                "value": "Neutral"
+            },
+            {
+                "id": "q3_4",
+                "value": "Somewhat"
+            },
+            {
+                "id": "q3_5",
+                "value": "Strongly"
+            }
+        ]
+    },
+    {
+        "question": "How important is living near a grocery store to you?",
+        "id": "map_4",
+        "answers": [
+            {
+                "id": "q4_1",
+                "value": "Not at all!"
+            },
+            {
+                "id": "q4_2",
+                "value": "Slightly"
+            },
+            {
+                "id": "q4_3",
+                "value": "Neutral"
+            },
+            {
+                "id": "q4_4",
+                "value": "Somewhat"
+            },
+            {
+                "id": "q4_5",
+                "value": "Strongly"
+            }
+        ]
+    },
+    {
+        "question": "Do you mind living in an outdated building?",
+        "id": "map_5",
+        "answers": [
+            {
+                "id": "q5_1",
+                "value": "Not at all!"
+            },
+            {
+                "id": "q5_2",
+                "value": "Slightly"
+            },
+            {
+                "id": "q5_3",
+                "value": "Neutral"
+            },
+            {
+                "id": "q5_4",
+                "value": "Somewhat"
+            },
+            {
+                "id": "q5_5",
+                "value": "Strongly"
+            }
+        ]
+    }
+]
